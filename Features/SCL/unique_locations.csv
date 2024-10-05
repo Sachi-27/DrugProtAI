@@ -1,0 +1,260 @@
+subcellular_location	group
+Apical cell membrane	cell membrane
+Apicolateral cell membrane	cell membrane
+Autolysosome membrane	cell membrane
+Basal cell membrane	cell membrane
+Basolateral cell membrane	cell membrane
+Cell junction	cell junction
+Cell junction, Adherens junction	cell junction
+Cell junction, Desmosome	cell junction
+Cell junction, Focal adhesion	cell junction
+Cell junction, Gap junction	cell junction
+Cell junction, Hemidesmosome	cell junction
+Cell junction, Paranodal septate junction	cell junction
+Cell junction, Tight junction	cell junction
+Cell membrane	cell membrane
+Cell membrane, Sarcolemma	cell membrane
+Cell membrane, Sarcolemma, T-tubule	cell membrane
+Cell projection	cell projection
+Cell projection, Axon	cell projection
+Cell projection, Bleb	cell projection
+Cell projection, Cilium	cell projection
+Cell projection, Cilium membrane	cell projection
+Cell projection, Cilium, Flagellum	cell projection
+Cell projection, Cilium, Flagellum membrane	cell projection
+Cell projection, Cilium, Photoreceptor outer segment	cell projection
+Cell projection, Dendrite	cell projection
+Cell projection, Dendritic spine	cell projection
+Cell projection, Dendritic spine membrane	cell projection
+Cell projection, Filopodium	cell projection
+Cell projection, Filopodium membrane	cell projection
+Cell projection, Filopodium tip	cell projection
+Cell projection, Growth cone	cell projection
+Cell projection, Growth cone membrane	cell projection
+Cell projection, Invadopodium	cell projection
+Cell projection, Invadopodium membrane	cell projection
+Cell projection, Kinocilium	cell projection
+Cell projection, Lamellipodium	cell projection
+Cell projection, Lamellipodium membrane	cell projection
+Cell projection, Microvillus	cell projection
+Cell projection, Microvillus membrane	cell projection
+Cell projection, Neuron projection	cell projection
+Cell projection, Phagocytic cup	cell projection
+Cell projection, Podosome	cell projection
+Cell projection, Podosome membrane	cell projection
+Cell projection, Pseudopodium	cell projection
+Cell projection, Pseudopodium membrane	cell projection
+Cell projection, Ruffle	cell projection
+Cell projection, Ruffle membrane	cell projection
+Cell projection, Stereocilium	cell projection
+Cell projection, Stereocilium membrane	cell projection
+Cell projection, Uropodium	cell projection
+Cell surface	cell surface
+Chromosome	chromosome
+Chromosome, Centromere	chromosome
+Chromosome, Centromere, Kinetochore	chromosome
+Chromosome, Telomere	chromosome
+Cleavage furrow	cleavage furrow
+Cornified envelope	cornified envelope
+Cytolytic granule	cytolitic granule
+Cytolytic granule membrane	cytolitic granule
+Cytoplasm	cytoplasm
+Cytoplasm, Cell cortex	cytoplasm
+Cytoplasm, Cytoplasmic ribonucleoprotein granule	cytoplasm
+Cytoplasm, Cytoskeleton	cytoplasm
+Cytoplasm, Cytoskeleton, Cilium axoneme	cytoplasm
+Cytoplasm, Cytoskeleton, Cilium basal body	cytoplasm
+Cytoplasm, Cytoskeleton, Flagellum axoneme	cytoplasm
+Cytoplasm, Cytoskeleton, Flagellum basal body	cytoplasm
+Cytoplasm, Cytoskeleton, Microtubule organizing center	cytoplasm
+Cytoplasm, Cytoskeleton, Microtubule organizing center, Centrosome	cytoplasm
+Cytoplasm, Cytoskeleton, Microtubule organizing center, Centrosome, Centriolar satellite	cytoplasm
+Cytoplasm, Cytoskeleton, Microtubule organizing center, Centrosome, Centriole	cytoplasm
+Cytoplasm, Cytoskeleton, Microtubule organizing center, Spindle pole body	cytoplasm
+Cytoplasm, Cytoskeleton, Perinuclear theca	cytoplasm
+Cytoplasm, Cytoskeleton, Perinuclear theca, Calyx	cytoplasm
+Cytoplasm, Cytoskeleton, Spindle	cytoplasm
+Cytoplasm, Cytoskeleton, Spindle pole	cytoplasm
+Cytoplasm, Cytoskeleton, Stress fiber	cytoplasm
+Cytoplasm, Cytosol	cytoplasm
+Cytoplasm, Myofibril	cytoplasm
+Cytoplasm, Myofibril, Sarcomere	cytoplasm
+Cytoplasm, Myofibril, Sarcomere, A band	cytoplasm
+Cytoplasm, Myofibril, Sarcomere, H zone	cytoplasm
+Cytoplasm, Myofibril, Sarcomere, I band	cytoplasm
+Cytoplasm, Myofibril, Sarcomere, M line	cytoplasm
+Cytoplasm, Myofibril, Sarcomere, Z line	cytoplasm
+Cytoplasm, P-body	cytoplasm
+Cytoplasm, Perinuclear region	cytoplasm
+Cytoplasm, Sarcoplasm	cytoplasm
+Cytoplasm, Stress granule	cytoplasm
+Cytoplasmic granule	cytoplasmic granule
+Cytoplasmic granule lumen	cytoplasmic granule
+Cytoplasmic granule membrane	cytoplasmic granule
+Cytoplasmic vesicle	cytoplasmic vesicle
+Cytoplasmic vesicle lumen	cytoplasmic vesicle
+Cytoplasmic vesicle membrane	cytoplasmic vesicle
+Cytoplasmic vesicle, Autophagosome	cytoplasmic vesicle
+Cytoplasmic vesicle, Autophagosome lumen	cytoplasmic vesicle
+Cytoplasmic vesicle, Autophagosome membrane	cytoplasmic vesicle
+Cytoplasmic vesicle, COPI-coated vesicle	cytoplasmic vesicle
+Cytoplasmic vesicle, COPI-coated vesicle membrane	cytoplasmic vesicle
+Cytoplasmic vesicle, COPII-coated vesicle	cytoplasmic vesicle
+Cytoplasmic vesicle, COPII-coated vesicle membrane	cytoplasmic vesicle
+Cytoplasmic vesicle, Clathrin-coated vesicle	cytoplasmic vesicle
+Cytoplasmic vesicle, Clathrin-coated vesicle membrane	cytoplasmic vesicle
+Cytoplasmic vesicle, Phagosome	cytoplasmic vesicle
+Cytoplasmic vesicle, Phagosome lumen	cytoplasmic vesicle
+Cytoplasmic vesicle, Phagosome membrane	cytoplasmic vesicle
+Cytoplasmic vesicle, Secretory vesicle	cytoplasmic vesicle
+Cytoplasmic vesicle, Secretory vesicle lumen	cytoplasmic vesicle
+Cytoplasmic vesicle, Secretory vesicle membrane	cytoplasmic vesicle
+Cytoplasmic vesicle, Secretory vesicle, Acrosome	cytoplasmic vesicle
+Cytoplasmic vesicle, Secretory vesicle, Acrosome inner membrane	cytoplasmic vesicle
+Cytoplasmic vesicle, Secretory vesicle, Acrosome lumen	cytoplasmic vesicle
+Cytoplasmic vesicle, Secretory vesicle, Acrosome membrane	cytoplasmic vesicle
+Cytoplasmic vesicle, Secretory vesicle, Acrosome outer membrane	cytoplasmic vesicle
+Cytoplasmic vesicle, Secretory vesicle, Chromaffin granule	cytoplasmic vesicle
+Cytoplasmic vesicle, Secretory vesicle, Chromaffin granule lumen	cytoplasmic vesicle
+Cytoplasmic vesicle, Secretory vesicle, Chromaffin granule membrane	cytoplasmic vesicle
+Cytoplasmic vesicle, Secretory vesicle, Cortical granule	cytoplasmic vesicle
+Cytoplasmic vesicle, Secretory vesicle, Microneme membrane	cytoplasmic vesicle
+Cytoplasmic vesicle, Secretory vesicle, Neuronal dense core vesicle	cytoplasmic vesicle
+Cytoplasmic vesicle, Secretory vesicle, Neuronal dense core vesicle membrane	cytoplasmic vesicle
+Cytoplasmic vesicle, Secretory vesicle, Synaptic vesicle	cytoplasmic vesicle
+Cytoplasmic vesicle, Secretory vesicle, Synaptic vesicle membrane	cytoplasmic vesicle
+Dynein axonemal particle	dynein axonemal particle
+Early endosome	early endosome
+Early endosome membrane	early endosome
+Endomembrane system	endomembrane system
+Endoplasmic reticulum	endoplasmic reticulum
+Endoplasmic reticulum lumen	endoplasmic reticulum
+Endoplasmic reticulum membrane	endoplasmic reticulum
+Endoplasmic reticulum-Golgi intermediate compartment	endoplasmic reticulum
+Endoplasmic reticulum-Golgi intermediate compartment lumen	endoplasmic reticulum
+Endoplasmic reticulum-Golgi intermediate compartment membrane	endoplasmic reticulum
+Endosome	endosome
+Endosome lumen	endosome
+Endosome membrane	endosome
+Endosome, Multivesicular body	endosome
+Endosome, Multivesicular body lumen	endosome
+Endosome, Multivesicular body membrane	endosome
+Extracellular vesicle	extracellular vessicle
+Extracellular vesicle membrane	extracellular vessicle
+Golgi apparatus	golgo apparatus
+Golgi apparatus lumen	golgo apparatus
+Golgi apparatus membrane	golgo apparatus
+Golgi apparatus, Cis-Golgi network	golgo apparatus
+Golgi apparatus, Cis-Golgi network membrane	golgo apparatus
+Golgi apparatus, Golgi stack	golgo apparatus
+Golgi apparatus, Golgi stack membrane	golgo apparatus
+Golgi apparatus, Trans-Golgi network	golgo apparatus
+Golgi apparatus, Trans-Golgi network membrane	golgo apparatus
+Golgi outpost	golgi outpost
+Inflammasome	inflammasome
+Late endosome	late endosome
+Late endosome membrane	late endosome
+Lateral cell membrane	lateral cell membrane
+Lipid droplet	lipid droplet
+Lysosome	lysosome
+Lysosome lumen	lysosome
+Lysosome membrane	lysosome
+Melanosome	melanosome
+Melanosome membrane	melanosome
+Membrane	membrane
+Membrane raft	membrane
+Membrane, Caveola	membrane
+Membrane, Clathrin-coated pit	membrane
+Membrane, Coated pit	membrane
+Microsome	microsome
+Microsome membrane	microsome
+Midbody	midbody
+Midbody, Midbody ring	midbody
+Mitochondrion	mitochondrion
+Mitochondrion inner membrane	mitochondrion
+Mitochondrion intermembrane space	mitochondrion
+Mitochondrion matrix	mitochondrion
+Mitochondrion matrix, Mitochondrion nucleoid	mitochondrion
+Mitochondrion membrane	mitochondrion
+Mitochondrion outer membrane	mitochondrion
+Myelin membrane	myelin membrane
+Nucleus	nucleus
+Nucleus envelope	nucleus
+Nucleus inner membrane	nucleus
+Nucleus intermembrane space	nucleus
+Nucleus lamina	nucleus
+Nucleus matrix	nucleus
+Nucleus membrane	nucleus
+Nucleus outer membrane	nucleus
+Nucleus speckle	nucleus
+Nucleus, Cajal body	nucleus
+Nucleus, Gem	nucleus
+Nucleus, Nuclear body	nucleus
+Nucleus, Nuclear pore complex	nucleus
+Nucleus, Nucleolus	nucleus
+Nucleus, Nucleolus fibrillar center	nucleus
+Nucleus, Nucleoplasm	nucleus
+Nucleus, PML body	nucleus
+Parasitophorous vacuole	parasitophorous vacuole
+Perikaryon	perikaryon
+Peroxisome	peroxisome
+Peroxisome matrix	peroxisome
+Peroxisome membrane	peroxisome
+Photoreceptor inner segment	photoreceptor
+Photoreceptor inner segment membrane	photoreceptor
+Photoreceptor outer segment membrane	photoreceptor
+Postsynapse	postsynapse
+Postsynaptic cell membrane	postsynapse
+Postsynaptic density	postsynapse
+Postsynaptic density membrane	postsynapse
+Postsynaptic recycling endosome membrane	postsynapse
+Preautophagosomal structure	preautophagosomal structure
+Preautophagosomal structure membrane	preautophagosomal structure
+Presynapse	presynapse
+Presynaptic active zone	presynapse
+Presynaptic cell membrane	presynapse
+Recycling endosome	recycling endosome
+Recycling endosome membrane	recycling endosome
+Rough endoplasmic reticulum	rough endoplasmic reticulum
+Rough endoplasmic reticulum lumen	rough endoplasmic reticulum
+Rough endoplasmic reticulum membrane	rough endoplasmic reticulum
+Sarcoplasmic reticulum	sarcoplasmic reticulum
+Sarcoplasmic reticulum lumen	sarcoplasmic reticulum
+Sarcoplasmic reticulum membrane	sarcoplasmic reticulum
+Secreted	secreted
+Secreted, Extracellular exosome	secreted
+Secreted, Extracellular space	secreted
+Secreted, Extracellular space, Extracellular matrix	secreted
+Secreted, Extracellular space, Extracellular matrix, Basement membrane	secreted
+Secreted, Extracellular space, Extracellular matrix, Interphotoreceptor matrix	secreted
+Secreted, Extracellular space, Surface film	secreted
+Smooth endoplasmic reticulum membrane	smooth endoplasmic reticulum membrane
+Synapse	synapse
+Synapse, Synaptosome	synapse
+Synaptic cell membrane	synapse
+Synaptic cleft	synapse
+Target cell membrane	target cell membrane
+Vacuole	vacuole
+Vacuole membrane	vacuole membrane
+Vesicle	vesicle
+Virion	virion
+Zona pellucida	zona pellucida
+Zymogen granule	zymogen granule
+Zymogen granule lumen	zymogen granule
+Zymogen granule membrane	zymogen granule
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
