@@ -7,9 +7,9 @@ The implementation of our paper [DrugProtAI : A guide to the future research of 
 
 ## 📂 Data
 
-- The platform uses a manually curated dataset containing 20,273 human proteins, cross-referenced with DrugBank (March 16, 2024), categorizing proteins into druggable, investigational, and non-druggable classes. 
+- The platform uses a manually curated dataset containing 20,273 human proteins, cross-referenced with DrugBank v5.1.12(March 14, 2024), categorizing proteins into druggable, investigational, and non-druggable classes. 
 - Protein embeddings and sequence information are sourced from UniProt
-- Second cross-referencing with Drugbank (August 10, 2024) observes 33 additional proteins with approved drugs
+- Second cross-referencing with Drugbank v5.1.13(January 02, 2025) observes 81 additional proteins with approved drugs
 
 ## 🌟 Key Features
 
