@@ -1,0 +1,183 @@
+protein kinase
+nucleus
+cytoplasm
+mitochondrion
+Glycosylation
+golgo apparatus
+postsynapse
+endoplasmic reticulum
+Modified residue
+microsome
+xeno_count
+cell membrane
+Disulfide bond
+degree_binary
+secreted
+Secondary Structure sheet
+Signal
+O-linked
+strongly_connected_component_sizes_all
+Instability Index
+binary_experimental_count
+Mean
+Cross-link
+Molecular Weight
+binary_count
+Amino Acid Percent S
+GRAVY
+Aromaticity
+disordered
+xeno_experimental_count
+Sequence Length
+btb
+Amino Acid Percent M
+Amino Acid Percent Q
+Median
+Amino Acid Percent G
+aromatic_negative
+aromatic_aliphatic
+Amino Acid Percent P
+Amino Acid Percent C
+Amino Acid Percent F
+aliphatic_aliphatic
+Secondary Structure turn
+Amino Acid Percent K
+Molar Extinction Coefficient 2
+Amino Acid Percent Y
+Latent_Value_10
+avg_degree_nbr_binary
+negative_aliphatic
+Amino Acid Percent E
+uncharged_uncharged
+Variance
+Molar Extinction Coefficient 1
+Amino Acid Percent I
+Amino Acid Percent W
+Amino Acid Percent R
+negative_aromatic
+N-linked
+aromatic_aromatic
+Charge at 7
+Latent_Value_3
+Amino Acid Percent H
+Amino Acid Percent N
+Average 2-hop gap
+Amino Acid Percent L
+aliphatic_negative
+Min
+Amino Acid Percent V
+uncharged_negative
+membrane
+uncharged_aliphatic
+positive_positive
+aliphatic_aromatic
+aromatic_uncharged
+aliphatic_uncharged
+Amino Acid Percent A
+Secondary Structure helix
+Amino Acid Percent D
+negative_negative
+Min 2-hop gap
+lysosome
+aromatic_positive
+negative_uncharged
+Isoelectric Point
+positive_aromatic
+cytoplasmic vesicle
+Latent_Value_2
+uncharged_positive
+Average gap
+Max
+Latent_Value_17
+uncharged_aromatic
+Max gap
+Min gap
+Range
+Latent_Value_19
+positive_aliphatic
+positive_negative
+ig-like c2-type
+Latent_Value_13
+Max 2-hop gap
+Latent_Value_4
+positive_uncharged
+Latent_Value_9
+aliphatic_positive
+Amino Acid Percent T
+Latent_Value_15
+Latent_Value_20
+Latent_Value_1
+Latent_Value_16
+Latent_Value_6
+Latent_Value_5
+Latent_Value_7
+pro residues
+Latent_Value_11
+early endosome
+Latent_Value_8
+Latent_Value_14
+polar residues
+Mode
+Latent_Value_18
+basic and acidic residues
+negative_positive
+Latent_Value_12
+late endosome
+nuclear localization signal
+synapse
+chromosome
+cell projection
+ef-hand
+rrm
+cell junction
+ig-like
+pdz
+basic residues
+ig-like v-type
+acidic residues
+fibronectin type-iii
+recycling endosome
+peroxisome
+endosome
+melanosome
+ph
+cornified envelope
+Standard Deviation
+egf-like
+endomembrane system
+sh3
+golgi outpost
+sarcoplasmic reticulum
+dynein axonemal particle
+vacuole membrane
+O-alpha-linked
+N-beta-linked
+S-linked
+smooth endoplasmic reticulum membrane
+zymogen granule
+presynapse
+cell surface
+preautophagosomal structure
+photoreceptor
+perikaryon
+C-linked
+midbody
+cleavage furrow
+parasitophorous vacuole
+extracellular vessicle
+virion
+lipid droplet
+vacuole
+degree_xeno
+rough endoplasmic reticulum
+degree_all
+krab
+myelin membrane
+cytolitic granule
+avg_degree_nbr_xeno
+inflammasome
+avg_degree_nbr_all
+vesicle
+cytoplasmic granule
+lateral cell membrane
+target cell membrane
