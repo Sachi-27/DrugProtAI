@@ -11,6 +11,10 @@ The implementation of our paper [DrugProtAI : A guide to the future research of 
 - Protein embeddings and sequence information are sourced from UniProt
 - Second cross-referencing with Drugbank v5.1.13(January 02, 2025) observes 81 additional proteins with approved drugs
 
+The entire feature set (183-dim) is available at the following location:
+
+🔗 [Download dataset](https://drive.google.com/file/d/1iA2n7_Mp6obDSEmrmqJ8dujS26wW97ce/view?usp=sharing)
+
 ## 🌟 Key Features
 
 - **Druggability Index**: It quantifies the likelihood of a protein being druggable.
