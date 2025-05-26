@@ -1,0 +1,10 @@
+Estimator/ Partition,Overlapping SHAP Features (count),% Overlap
+1,"Secondary Structure sheet, aromatic_negative, Glycosylation, Modified residue, xeno_experimental_count, mitochondrion, protein kinase (7)",46.67%
+2,"GRAVY, Amino Acid Percent Q, Secondary Structure sheet, Glycosylation, Modified residue, Disulfide bond, mitochondrion, cell membrane, protein kinase, Mean (10)",66.67%
+3,"GRAVY, Instability Index, Amino Acid Percent Q, aromatic_negative, Glycosylation, Modified residue, xeno_experimental_count, protein kinase, Mean, Median (10)",66.67%
+4,"GRAVY, Instability Index, Secondary Structure sheet, aromatic_aliphatic, Glycosylation, Modified residue, Disulfide bond, xeno_experimental_count, mitochondrion, cell membrane, protein kinase, Median (12)",80.00%
+5,"GRAVY, aromatic_negative, Glycosylation, Modified residue, Disulfide bond, xeno_experimental_count, cell membrane, protein kinase, Median (9)",60.00%
+6,"GRAVY, Amino Acid Percent Q, aromatic_aliphatic, aromatic_negative, Glycosylation, Modified residue, Disulfide bond, mitochondrion, protein kinase (9)",60.00%
+7,"Instability Index, Amino Acid Percent Q, Secondary Structure sheet, aromatic_negative, Glycosylation, Modified residue, xeno_experimental_count, mitochondrion, cell membrane, protein kinase, Mean, Median (12)",80.00%
+8,"Instability Index, Amino Acid Percent Q, Secondary Structure sheet, aromatic_negative, Glycosylation, Modified residue, mitochondrion, protein kinase, Mean, Median (10)",66.67%
+9,"GRAVY, Instability Index, Amino Acid Percent Q, Secondary Structure sheet, aromatic_aliphatic, aromatic_negative, Glycosylation, Modified residue, Disulfide bond, mitochondrion, protein kinase, Mean (12)",80.00%
