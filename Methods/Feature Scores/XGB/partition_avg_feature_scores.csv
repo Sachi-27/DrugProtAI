@@ -1,184 +1,184 @@
-,XGB_Partition_Average,
-Sequence Length,0.008425455,
-Molecular Weight,0.010138511,
-GRAVY,0.008267694,
-Isoelectric Point,0.004977271,
-Instability Index,0.019068599,
-Aromaticity,0.007553944,
-Charge at 7,0.006237858,
-Amino Acid Percent A,0.00545208,
-Amino Acid Percent C,0.005638978,
-Amino Acid Percent D,0.004999834,
-Amino Acid Percent E,0.006063117,
-Amino Acid Percent F,0.007705831,
-Amino Acid Percent G,0.006966213,
-Amino Acid Percent H,0.005417513,
-Amino Acid Percent I,0.00510663,
-Amino Acid Percent K,0.00540017,
-Amino Acid Percent L,0.005424955,
-Amino Acid Percent M,0.007590024,
-Amino Acid Percent N,0.005322819,
-Amino Acid Percent P,0.006394282,
-Amino Acid Percent Q,0.007838368,
-Amino Acid Percent R,0.004924949,
-Amino Acid Percent S,0.008829012,
-Amino Acid Percent T,0.004619288,
-Amino Acid Percent V,0.005032994,
-Amino Acid Percent W,0.005842031,
-Amino Acid Percent Y,0.005063404,
-Molar Extinction Coefficient 1,0.005920799,
-Molar Extinction Coefficient 2,0.006278886,
-Secondary Structure helix,0.005392979,
-Secondary Structure turn,0.007034078,
-Secondary Structure sheet,0.038819674,
-aliphatic_aliphatic,0.007982856,
-aliphatic_positive,0.004167771,
-aliphatic_negative,0.00697281,
-aliphatic_uncharged,0.004832536,
-aliphatic_aromatic,0.004994388,
-positive_aliphatic,0.004598079,
-positive_positive,0.004751433,
-positive_negative,0.00450293,
-positive_uncharged,0.004678683,
-positive_aromatic,0.004599075,
-negative_aliphatic,0.006499994,
-negative_positive,0.004874719,
-negative_negative,0.005208114,
-negative_uncharged,0.004741225,
-negative_aromatic,0.006263442,
-uncharged_aliphatic,0.005062227,
-uncharged_positive,0.004268482,
-uncharged_negative,0.005393534,
-uncharged_uncharged,0.007486974,
-uncharged_aromatic,0.00510451,
-aromatic_aliphatic,0.015152406,
-aromatic_positive,0.005616806,
-aromatic_negative,0.00633017,
-aromatic_uncharged,0.004748975,
-aromatic_aromatic,0.00547459,
-Glycosylation,0.023789236,
-Cross-link,0.008299019,
-Modified residue,0.027386123,
-Signal,0.009450411,
-Disulfide bond,0.020044157,
-O-linked,0.009458787,
-N-linked,0.011562695,
-C-linked,0,
-N-beta-linked,0,
-S-linked,0,
-O-alpha-linked,0,
-binary_count,0.006246388,
-binary_experimental_count,0.00715493,
-xeno_count,0.012148312,
-xeno_experimental_count,0.015646951,
-degree_binary,0.006624363,
-degree_xeno,0,
-degree_all,0,
-avg_degree_nbr_binary,0.006061774,
-avg_degree_nbr_xeno,0,
-avg_degree_nbr_all,0,
-strongly_connected_component_sizes_all,0.009606003,
-late endosome,0.000575277,
-cleavage furrow,0,
-postsynapse,0.008022199,
-microsome,0.013072965,
-cytoplasm,0.011395988,
-synapse,0.001092438,
-rough endoplasmic reticulum,0,
-chromosome,0.005873873,
-sarcoplasmic reticulum,0,
-lateral cell membrane,0,
-nucleus,0.013601807,
-secreted,0.013536759,
-endosome,0.004004575,
-golgo apparatus,0.010963835,
-zymogen granule,0,
-vesicle,0,
-lysosome,0.004408011,
-cytoplasmic vesicle,0.006848769,
-membrane,0.007699674,
-recycling endosome,0.00089241,
-target cell membrane,0,
-cytoplasmic granule,0,
-parasitophorous vacuole,0,
-vacuole membrane,0,
-extracellular vessicle,0,
-cell membrane,0.015989654,
-golgi outpost,0,
-early endosome,0.003818096,
-cornified envelope,0,
-virion,0,
-melanosome,0,
-vacuole,0,
-endomembrane system,0,
-photoreceptor,0,
-cell surface,0,
-inflammasome,0,
-midbody,0.000769857,
-lipid droplet,0,
-presynapse,0.000233854,
-endoplasmic reticulum,0.007776589,
-preautophagosomal structure,0.000615897,
-cell projection,0.003083541,
-cytolitic granule,0,
-cell junction,0.004329126,
-dynein axonemal particle,0,
-mitochondrion,0.015461567,
-perikaryon,0,
-peroxisome,0.000888195,
-smooth endoplasmic reticulum membrane,0,
-myelin membrane,0,
-rrm,0.003741603,
-acidic residues,0.000971842,
-ph,0.001274156,
-krab,0,
-pdz,0.001680557,
-btb,0.00552837,
-nuclear localization signal,0.002426155,
-fibronectin type-iii,0.002611784,
-disordered,0.009293138,
-ig-like v-type,0.004800698,
-ef-hand,0.006330216,
-sh3,0.004822296,
-ig-like,0.004166446,
-pro residues,0.005845019,
-protein kinase,0.04417467,
-ig-like c2-type,0.006875202,
-basic and acidic residues,0.004917132,
-basic residues,0.001047057,
-egf-like,0,
-polar residues,0.004712862,
-Mean,0.007560723,
-Mode,0.004423046,
-Min,0.00480963,
-Max,0.004884803,
-Variance,0.005299423,
-Median,0.008997914,
-Standard Deviation,0,
-Range,0.004458661,
-Min gap,0.004558968,
-Max gap,0.00457595,
-Average gap,0.004372774,
-Min 2-hop gap,0.003889936,
-Max 2-hop gap,0.004513243,
-Average 2-hop gap,0.004426922,
-Latent_Value_1,0.00532837,
-Latent_Value_2,0.005144093,
-Latent_Value_3,0.005062537,
-Latent_Value_4,0.005228606,
-Latent_Value_5,0.005265929,
-Latent_Value_6,0.003839566,
-Latent_Value_7,0.00465579,
-Latent_Value_8,0.004557795,
-Latent_Value_9,0.00428876,
-Latent_Value_10,0.004558998,
-Latent_Value_11,0.004975121,
-Latent_Value_12,0.004925149,
-Latent_Value_13,0.004459977,
-Latent_Value_14,0.004640474,
-Latent_Value_15,0.004299425,
-Latent_Value_16,0.005061055,
-Latent_Value_17,0.004361223,
-Latent_Value_18,0.00472108,
-Latent_Value_19,0.005805558,
-Latent_Value_20,0.006340252,
+,Partition_Average
+Sequence Length,0.007409009
+Molecular Weight,0.008508699
+GRAVY,0.011157674
+Isoelectric Point,0.004902638
+Instability Index,0.021520024
+Aromaticity,0.008617325
+Charge at 7,0.006190065
+Amino Acid Percent A,0.00528057
+Amino Acid Percent C,0.005604223
+Amino Acid Percent D,0.004967368
+Amino Acid Percent E,0.006963733
+Amino Acid Percent F,0.006336995
+Amino Acid Percent G,0.007357177
+Amino Acid Percent H,0.00542633
+Amino Acid Percent I,0.005031212
+Amino Acid Percent K,0.00569839
+Amino Acid Percent L,0.005380131
+Amino Acid Percent M,0.007361117
+Amino Acid Percent N,0.005523332
+Amino Acid Percent P,0.006295078
+Amino Acid Percent Q,0.006977618
+Amino Acid Percent R,0.00548939
+Amino Acid Percent S,0.009917958
+Amino Acid Percent T,0.004206222
+Amino Acid Percent V,0.004662135
+Amino Acid Percent W,0.00568499
+Amino Acid Percent Y,0.005409676
+Molar Extinction Coefficient 1,0.006419981
+Molar Extinction Coefficient 2,0.00615526
+Secondary Structure helix,0.005190491
+Secondary Structure turn,0.00718026
+Secondary Structure sheet,0.034392957
+aliphatic_aliphatic,0.007199949
+aliphatic_positive,0.005115952
+aliphatic_negative,0.005710416
+aliphatic_uncharged,0.005400156
+aliphatic_aromatic,0.004726323
+positive_aliphatic,0.004832243
+positive_positive,0.005482463
+positive_negative,0.004672651
+positive_uncharged,0.004191452
+positive_aromatic,0.005630695
+negative_aliphatic,0.007245005
+negative_positive,0.00410624
+negative_negative,0.004693763
+negative_uncharged,0.00493357
+negative_aromatic,0.006247974
+uncharged_aliphatic,0.005558346
+uncharged_positive,0.004821143
+uncharged_negative,0.005482163
+uncharged_uncharged,0.008122804
+uncharged_aromatic,0.005436175
+aromatic_aliphatic,0.010107589
+aromatic_positive,0.005387798
+aromatic_negative,0.006438314
+aromatic_uncharged,0.005159688
+aromatic_aromatic,0.005376624
+Glycosylation,0.02951786
+Cross-link,0.008785489
+Modified residue,0.026144838
+Signal,0.007720608
+Disulfide bond,0.019596567
+O-linked,0.009806243
+N-linked,0.007492765
+C-linked,0
+N-beta-linked,0
+S-linked,0
+O-alpha-linked,0
+binary_count,0.009498596
+binary_experimental_count,0.007516596
+xeno_count,0.017726848
+xeno_experimental_count,0.01279282
+degree_binary,0.005774065
+degree_xeno,0
+degree_all,0
+avg_degree_nbr_binary,0.006235809
+avg_degree_nbr_xeno,0
+avg_degree_nbr_all,0
+strongly_connected_component_sizes_all,0.008605353
+endosome,0.001208726
+extracellular vessicle,0
+cytoplasmic granule,0
+cell membrane,0.009943249
+preautophagosomal structure,0
+cornified envelope,0
+lysosome,0.007278927
+cytoplasmic vesicle,0.010192447
+late endosome,0.004294917
+dynein axonemal particle,0
+microsome,0.010576508
+vacuole,0
+vesicle,0
+perikaryon,0
+synapse,0.000642219
+peroxisome,0
+photoreceptor,0
+vacuole membrane,0
+sarcoplasmic reticulum,0
+midbody,0.001197137
+cleavage furrow,0
+cell surface,0
+postsynapse,0.012538912
+parasitophorous vacuole,0
+cell projection,0.002081578
+zymogen granule,0
+cytoplasm,0.008258479
+membrane,0.004884128
+secreted,0.010540449
+smooth endoplasmic reticulum membrane,0
+cell junction,0.002016169
+recycling endosome,0.000507841
+lipid droplet,0
+golgi outpost,0
+cytolitic granule,0
+golgo apparatus,0.012294822
+melanosome,0
+myelin membrane,0
+chromosome,0.008241003
+lateral cell membrane,0
+inflammasome,0
+rough endoplasmic reticulum,0
+early endosome,0.003931369
+presynapse,0
+nucleus,0.011077513
+mitochondrion,0.018347843
+virion,0
+endoplasmic reticulum,0.005517956
+target cell membrane,0
+endomembrane system,0
+rrm,0.00505522
+acidic residues,0.002702285
+ph,0.002402016
+krab,0
+pdz,0.002096606
+btb,0.005748741
+nuclear localization signal,0.001414535
+fibronectin type-iii,0.000864824
+disordered,0.008182519
+ig-like v-type,0
+ef-hand,0.009973196
+sh3,0.003716555
+ig-like,0.001246553
+pro residues,0.001928733
+protein kinase,0.05080346
+ig-like c2-type,0.005694784
+basic and acidic residues,0.006113571
+basic residues,0.001651195
+egf-like,0.001032379
+polar residues,0.003081339
+Mean,0.01027377
+Mode,0.004486116
+Min,0.004546274
+Max,0.004858096
+Variance,0.006197953
+Median,0.007119638
+Standard Deviation,0
+Range,0.004143298
+Min gap,0.004613574
+Max gap,0.004697769
+Average gap,0.004549795
+Min 2-hop gap,0.004258518
+Max 2-hop gap,0.004362149
+Average 2-hop gap,0.005067851
+Latent_Value_1,0.005200763
+Latent_Value_2,0.006481439
+Latent_Value_3,0.006661732
+Latent_Value_4,0.004999343
+Latent_Value_5,0.0056614
+Latent_Value_6,0.003797353
+Latent_Value_7,0.005037664
+Latent_Value_8,0.005752621
+Latent_Value_9,0.00412041
+Latent_Value_10,0.006392418
+Latent_Value_11,0.004858255
+Latent_Value_12,0.005228903
+Latent_Value_13,0.003830861
+Latent_Value_14,0.005111553
+Latent_Value_15,0.004658131
+Latent_Value_16,0.005058684
+Latent_Value_17,0.004879866
+Latent_Value_18,0.005221967
+Latent_Value_19,0.006229418
+Latent_Value_20,0.005849736
