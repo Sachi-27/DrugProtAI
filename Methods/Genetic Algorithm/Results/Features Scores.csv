@@ -1,0 +1,11 @@
+Partition,accuracy_total,accuracy_druggable,accuracy_non_druggable
+partition_1,0.733333,0.743333,0.723333
+partition_2,0.725833,0.725,0.726667
+partition_3,0.7425,0.748333,0.736667
+partition_4,0.735,0.753333,0.716667
+partition_5,0.750833,0.765,0.736667
+partition_6,0.733333,0.736667,0.73
+partition_7,0.731667,0.741667,0.721667
+partition_8,0.745833,0.731667,0.76
+partition_9,0.728333,0.718333,0.738333
+majority,0.764167,0.756667,0.771667
