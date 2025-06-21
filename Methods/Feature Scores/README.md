@@ -13,17 +13,19 @@ We compute average feature importances from models trained on partitioned data u
 
 These notebooks generate:
 
-- `RF/partition_avg_feature_scores.csv`
-- `XGB/partition_avg_feature_scores.csv`
+- `RF/all_features/partition_avg_feature_scores.csv`
+- `XGB/all_features/partition_avg_feature_scores.csv`
 
 Each CSV contains the average importance of each feature, ranked by relevance.
 
 Additionally, both notebooks evaluate PEC's performance using the top K features incrementally (from 1 to all 183). The corresponding performance metrics (accuracy, F1 score, etc.) are reported in:
 
-- `RF/feature_improvement_metrics.csv`
-- `XGB/feature_improvement_metrics.csv`
+- `RF/all_features/feature_improvement_metrics.csv`
+- `XGB/all_features/feature_improvement_metrics.csv`
 
 These files illustrate how model performance evolves as more top features are added.
+
+Additionally to experiment with different ablations of feature groups, we use the file `ablation_study_feature_scores.py`.
 
 ---
 
@@ -46,8 +48,8 @@ Code:
 - `xgb_feature_selection_rfe.py`
 
 Outputs:
-- `RF/RFE_RF_top_features.txt`
-- `XGB/RFE_XGB_top_features.txt`
+- `RF/all_features/RFE_RF_top_features.txt`
+- `XGB/all_features/RFE_XGB_top_features.txt`
 
 These text files list all features ranked from most important (top) to least important (bottom), based on the RFE process.
 
