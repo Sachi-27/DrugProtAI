@@ -51,22 +51,25 @@ We compare the effect of using different types of features, specified via `FEATU
   - Subcellular localization
   - Protein domain information
 - `"all"` – Combined feature set
+- `"esm_instead_of_latent"` – Combined feature set except that latent values replaced with ESM2 embeddings 
 
 ### 📊 Performance of XGBoost PEC on Different Feature Groups
 
-| Feature Group     | Total Accuracy | Sensitivity | Specificity |
-|------------------|----------------|-------------|-------------|
-| All Features      | 78.06 ± 2.03   | 78.73 ± 2.82 | 77.38 ± 2.43 |
-| Seq-only          | 71.71 ± 1.47   | 74.25 ± 2.15 | 69.17 ± 2.50 |
-| Non-seq only      | 75.14 ± 1.38   | 76.15 ± 2.57 | 74.13 ± 1.75 |
+| Feature Group                                      | Total Accuracy | Sensitivity  | Specificity  |
+| -------------------------------------------------- | -------------- | ------------ | ------------ |
+| All Features                                       | 78.06 ± 2.03   | 78.73 ± 2.82 | 77.38 ± 2.43 |
+| Seq-only                                           | 71.71 ± 1.47   | 74.25 ± 2.15 | 69.17 ± 2.50 |
+| Non-seq only                                       | 75.14 ± 1.38   | 76.15 ± 2.57 | 74.13 ± 1.75 |
+| All Features but ESM2 embeddings instead of Latent | 82.78 ± 1.55   | 83.95 ± 1.98 | 81.60 ± 2.47 |
 
 ### 📊 Performance of Random Forest PEC on Different Feature Groups
 
-| Feature Group     | Total Accuracy | Sensitivity | Specificity |
-|------------------|----------------|-------------|-------------|
-| All Features      | 75.94 ± 1.55   | 77.73 ± 1.95 | 74.15 ± 2.36 |
-| Seq-only          | 70.43 ± 2.19   | 71.73 ± 2.76 | 69.13 ± 2.95 |
-| Non-seq only      | 74.33 ± 1.60   | 77.65 ± 2.80 | 71.02 ± 2.13 |
+| Feature Group                                      | Total Accuracy | Sensitivity  | Specificity  |
+| -------------------------------------------------- | -------------- | ------------ | ------------ |
+| All Features                                       | 75.94 ± 1.55   | 77.73 ± 1.95 | 74.15 ± 2.36 |
+| Seq-only                                           | 70.43 ± 2.19   | 71.73 ± 2.76 | 69.13 ± 2.95 |
+| Non-seq only                                       | 74.33 ± 1.60   | 77.65 ± 2.80 | 71.02 ± 2.13 |
+| All Features but ESM2 embeddings instead of Latent | 77.80 ± 1.89   | 79.30 ± 2.36 | 76.30 ± 2.63 |
 
 > ✅ **Observation**: Non-sequence features significantly contribute to predictive performance and should not be excluded.
 

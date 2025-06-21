@@ -40,12 +40,12 @@ FEATURE_GROUP can be one of the following:
 - "seq_only" for sequence-only features
 - "non_seq_only" for non-sequence features
 - "all" for all features
-
+- "esm_instead_of_latent" for ESM2 embeddings instead of latent values and remaining features same as "all"
 '''
 
-data_file_path = "/content/drive/MyDrive/protein_props/features/protein_props.json"
-druggable_proteins_file_path = "/content/drive/MyDrive/protein_props/NEW_WORK/druggable_proteins.txt"
-investigational_proteins_file_path = "/content/drive/MyDrive/protein_props/NEW_WORK/investigational_proteins.txt"
+data_file_path = "protein_props.json"
+druggable_proteins_file_path = "druggable_proteins.txt"
+investigational_proteins_file_path = "investigational_proteins.txt"
 
 with open(data_file_path, 'r') as f:
     protein_data = json.load(f)
@@ -66,7 +66,7 @@ print("Number of druggable approved proteins:", len(approved_druggable_proteins)
 
 
 # Fetching feature data for all proteins
-properties = (pd.read_json("/content/drive/MyDrive/protein_props/features/protein_props.json")).transpose()
+properties = (pd.read_json("protein_props.json")).transpose()
 is_druggable = [1 if i in druggable_proteins else 0 for i in properties.index]
 is_approved_druggable = [1 if i in approved_druggable_proteins else 0 for i in properties.index]
 
@@ -93,25 +93,25 @@ PCP_properties.drop(columns = ['Amino Acid Count','Amino Acid Percent',"Molar Ex
 PCP_properties['Sequence Length'] = PCP_properties['Sequence Length'].astype(int)
 PCP_properties[['Molecular Weight', 'GRAVY', 'Isoelectric Point', 'Instability Index', 'Aromaticity', 'Charge at 7']] = PCP_properties[['Molecular Weight', 'GRAVY', 'Isoelectric Point', 'Instability Index', 'Aromaticity', 'Charge at 7']].astype(float)
 
-with open("/content/drive/MyDrive/protein_props/features/gdpc_encodings.json", 'r') as file:
+with open("features/gdpc_encodings.json", 'r') as file:
     data = json.load(file)
 gpdc_encodings = pd.DataFrame(data).transpose()
 
-ppi = pd.read_json("/content/drive/MyDrive/protein_props/features/ppi.json").transpose()
-ppi_network = pd.read_csv("/content/drive/MyDrive/protein_props/features/ppi_network_properties.csv")
+ppi = pd.read_json("features/ppi.json").transpose()
+ppi_network = pd.read_csv("features/ppi_network_properties.csv")
 ppi_network.index = ppi_network['Unnamed: 0']
 ppi_network.drop(columns = ['Unnamed: 0'], inplace = True)
 ppi = pd.concat([ppi, ppi_network], axis = 1)
 
-glycolisation = pd.read_csv("/content/drive/MyDrive/protein_props/features/glycosylation.csv")
+glycolisation = pd.read_csv("features/glycosylation.csv")
 glycolisation.index = glycolisation['Unnamed: 0']
 glycolisation.drop(columns = ['Unnamed: 0'], inplace = True)
-ptm = pd.read_csv("/content/drive/MyDrive/protein_props/features/PTM_counts.csv")
+ptm = pd.read_csv("features/PTM_counts.csv")
 ptm.index = ptm["Unnamed: 0"]
 ptm.drop(columns = ['Unnamed: 0'], inplace = True)
 ptm_counts = pd.concat([ptm, glycolisation], axis = 1)
 
-with open("/content/drive/MyDrive/protein_props/features/subcellular_locations2.json", 'r') as file:
+with open("features/subcellular_locations2.json", 'r') as file:
     data = json.load(file)
 unique_groups = set()
 for entry in data.values():
@@ -133,15 +133,15 @@ for protein_id in PCP_properties.index:
 
 subcellular_data = pd.DataFrame(rows).set_index("protein_id")
 
-domains = pd.read_csv("/content/drive/MyDrive/protein_props/features/data_top20_updated.csv")
+domains = pd.read_csv("features/data_top20_updated.csv")
 domains.index = domains['Unnamed: 0']
 domains.drop(columns = ['Unnamed: 0'], inplace = True)
 
-flexibility = pd.read_csv("/content/drive/MyDrive/protein_props/features/flexibility_properties.csv")
+flexibility = pd.read_csv("features/flexibility_properties.csv")
 flexibility.index = flexibility['Unnamed: 0']
 flexibility.drop(columns = ['Unnamed: 0'], inplace = True)
 
-latent_data = pd.read_csv("/content/drive/MyDrive/protein_props/features/latent_values.csv").transpose()
+latent_data = pd.read_csv("features/latent_values.csv").transpose()
 latent_data.columns = [f"Latent_Value_{i+1}" for i in latent_data.columns]
 
 if FEATURE_GROUP == "all":
@@ -150,6 +150,11 @@ elif FEATURE_GROUP == "seq_only":
    final_data = pd.concat([PCP_properties, gpdc_encodings, flexibility, latent_data], axis=1).dropna()
 elif FEATURE_GROUP == "non_seq_only":
    final_data = pd.concat([ptm_counts, ppi, subcellular_data, domains], axis=1).dropna()
+elif FEATURE_GROUP == "esm_instead_of_latent":
+    embeddings_file_path = "features/protein_embeddings_ESM2.csv"
+    embeddings = pd.read_csv(embeddings_file_path, index_col=0)
+    embeddings.columns = [f"Embedding_{int(i)+1}" for i in embeddings.columns]
+    final_data = pd.concat([PCP_properties, gpdc_encodings, ptm_counts, ppi, subcellular_data, domains, flexibility, embeddings], axis=1).dropna()
 else:
     raise ValueError("Invalid FEATURE_GROUP. Choose 'all', 'seq_only', or 'non_seq_only'.")
 
