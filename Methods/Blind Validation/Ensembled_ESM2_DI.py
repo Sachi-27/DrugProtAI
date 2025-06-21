@@ -15,7 +15,7 @@ druggable_proteins_file_path = "druggable_proteins.txt"
 investigational_proteins_file_path = "investigational_proteins.txt"
 embeddings_file_path = "protein_embeddings_ESM2.csv" # To change to the path of the embeddings file
 PEC_MODEL = "xgb" # Change to "rf" for Random Forest Classifier, "svc" for 
-SCALER = "standard" # Change to "standard" for StandardScaler, "minmax" for MinMaxScaler
+SCALER = "std" # Change to "std" for StandardScaler, "minmax" for MinMaxScaler
 
 # Extract embeddings and protein ids of druggable, non druggable and investigational categories
 embeddings = pd.read_csv(embeddings_file_path, index_col=0)
@@ -47,7 +47,7 @@ def get_model(method):
 
 # Performing normalization on training data and test data
 X_combined = pd.concat([X_druggable, X_non_druggable])
-if SCALER == "standard":
+if SCALER == "std":
     scaler = StandardScaler()
 elif SCALER == "minmax":
     scaler = MinMaxScaler()
@@ -91,7 +91,7 @@ investigational_df = pd.DataFrame({
     "DI_score": investigational_preds_mean
 })
 
-investigational_df.to_csv("results/ESM2xgbstd_DI_scores_investigational.csv", index=False)
+investigational_df.to_csv(f"results/ESM2{PEC_MODEL}{SCALER}_DI_scores_investigational.csv", index=False)
 
 ### DI calculation on non-druggable set
 non_druggable_preds = []
@@ -114,5 +114,19 @@ non_druggable_df = pd.DataFrame({
     "protein_id": non_druggable_proteins_one_by_one,
     "DI_score": non_druggable_preds
 })
-non_druggable_df.to_csv("results/ESM2xgbstd_DI_scores_non_druggable.csv", index=False)
+non_druggable_df.to_csv(f"results/ESM2{PEC_MODEL}{SCALER}_DI_scores_non_druggable.csv", index=False)
 
+### DI calculation on druggable set
+druggable_preds = []
+for model in models:
+    druggable_preds.append(model.predict_proba(X_druggable)[:, 1])
+
+druggable_preds = np.array(druggable_preds)
+druggable_preds_mean = np.mean(druggable_preds, axis=0)
+
+# save in csv protein ids and DI scores
+druggable_df = pd.DataFrame({
+    "protein_id": X_druggable.index,
+    "DI_score": druggable_preds_mean
+})
+druggable_df.to_csv(f"results/ESM2{PEC_MODEL}{SCALER}_DI_scores_druggable.csv", index=False)
